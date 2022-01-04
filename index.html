@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assest/responsive.css">
+    <link rel="stylesheet" href="./assest/style.css">
+    <link rel="stylesheet" href="./assest/Font-awesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="icon" href="./assest/img/logo.png">
+    <title>Cafena Coffee</title>
+
+</head>
+<body>
+    
+    <!--
+        ========================================
+                        HEADER
+        ========================================
+    -->
+    
+    <header id="header">    
+        <!--Logo-->   
+        <div >
+            <a href="#"><img src="./assest/img/logo.png" class="logo" alt="logo" ></a>
+        </div>
+        <!--Navbar-->
+        <nav class="navbar">
+             <a href ="#" class="navbar-list">HOME</a>
+             <a href ="#about" class="navbar-list">ABOUT</a>
+             <a href ="#menu" class="navbar-list">MENU</a>
+             <a href ="#products" class="navbar-list">PRODUCTS</a>
+             <a href ="#review" class="navbar-list">REVIEW</a>
+             <a href ="#contact" class="navbar-list">CONTACT</a>
+             <a href ="#blog" class="navbar-list">BLOGS</a>    
+        </nav>
+        <!--Icon-->
+        <div class="icon">
+            <i class="fas fa-search js-search-btn"></i>
+            <i class="fas fa-shopping-cart js-shopping-btn"></i>
+            <div class="fas fa-bars" id="menubar-btn"></div>
+        </div> 
+        <!--Searching-form-->     
+        <div class="search-form">
+            <input type="text" placeholder="Search here..." class="search-form__input">
+            <i class="fas fa-search"></i>
+        </div>
+        <!--Shopping-form-->
+        <div class="shopping-form">
+            <!--        ITEM 1       -->
+            <div class="cart-item">
+                <span><img src="./assest/img/cart-item-1.png" alt="" class="cart-item-img"></span>
+                <span class="cart-item-des">
+                    <h4 class="cart-item-des__title">Cart Item 01</h4>
+                    <h5 class="cart-item__price">$15.99</h5>
+                </span>
+                <i class="fas fa-times close-item"></i>
+            </div>
+            <!--        ITEM 2       -->
+            <div class="cart-item">
+                <span><img src="./assest/img/cart-item-2.png" alt="" class="cart-item-img"></span>
+                <span class="cart-item-des">
+                    <h4 class="cart-item-des__title">Cart Item 02</h4>
+                    <h5 class="cart-item__price">$15.99</h5>
+                </span>
+                <i class="fas fa-times close-item"></i>
+            </div>
+            <!--        ITEM 3       -->
+            <div class="cart-item">
+                <span><img src="./assest/img/cart-item-3.png" alt="" class="cart-item-img"></span>
+                <span class="cart-item-des">
+                    <h4 class="cart-item-des__title">Cart Item 03</h4>
+                    <h5 class="cart-item__price">$15.99</h5>
+                </span>
+                <i class="fas fa-times close-item"></i>
+            </div>
+            <!--        ITEM 4       -->
+            <div class="cart-item">
+                <span><img src="./assest/img/cart-item-4.png" alt="" class="cart-item-img"></span>
+                <span class="cart-item-des">
+                    <h4 class="cart-item-des__title">Cart Item 04</h4>
+                    <h5 class="cart-item__price">$15.99</h5>
+                </span>
+                <i class="fas fa-times close-item"></i>
+            </div>
+            <a class="checkout-btn btn">
+                Check-out now!
+            </a>
+        </div>
+    </header>
+
+    <!--
+        ========================================
+                        HOME
+        ========================================
+    -->
+    <div id="home">
+        <div class="home-content">
+            <h4 class="home-content__title">
+                FRESH COFFEE IN THE MORNING
+            </h4>
+            <p class="home-content__des">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Placeat Labore, Sint Cupiditate Distinctio Tempora Reiciendis.</p>
+            <a href="#" class="home-content__btn btn">Get Yours Now</a>
+            </div>
+    </div>
+
+    <div id="main-container">
+    <!--
+        ========================================
+                        ABOUT
+        ========================================
+    -->
+    <div id="about">
+        <p class="name-section"><span class="name-section--primary">ABOUT</span> US</p>
+        <div class="about-content row">
+            <img src="./assest/img/about-img.jpeg" alt="" class="about-content-1">
+            <div class="about-content-2">
+                <h4 class="about-content-2-title">
+                    What Makes Our Coffee Special?
+                </h4>
+                <div class="about-content-2-des">
+                    <p> Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Voluptatibus Qui Ea Ullam, Enim Tempora Ipsum Fuga Alias Quae Ratione A Officiis Id Temporibus Autem? Quod Nemo Facilis Cupiditate. Ex, Vel?</p>
+                    <p> Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Odit Amet Enim Quod Veritatis, Nihil Voluptas Culpa! Neque Consectetur Obcaecati Sapiente?</p>
+                </div>
+                <a class="about-content-2-btn btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        ========================================
+                        MENU
+        ========================================
+    -->
+    <div id="menu">
+        <p class="name-section">OUR <span class="name-section--primary">MENU</span></p>
+        <div class="grid-container">
+            <!--        ITEM 1       -->
+            <div class="item item-hover">
+                <img src="./assest/img/menu-1.png" alt="">
+                <h4 class="item-title">Tasty and healthy</h4>
+                <div class="item-price">$15.99 <span>20.99</span></div>
+                <a  class="item-btn btn">Add to cart</a>
+            </div>
+            <!--        ITEM 2       -->
+            <div class="item item-hover">
+                <img src="./assest/img/menu-2.png" alt="">
+                <h4 class="item-title">Tasty and healthy</h4>
+                <div class="item-price">$15.99 <span>20.99</span></div>
+                <a  class="item-btn btn">Add to cart</a>
+            </div>
+            <!--        ITEM 3       -->
+            <div class="item item-hover">
+                <img src="./assest/img/menu-3.png" alt="">
+                <h4 class="item-title">Tasty and healthy</h4>
+                <div class="item-price">$15.99 <span>20.99</span></div>
+                <a  class="item-btn btn">Add to cart</a>
+            </div>
+            <!--        ITEM 4       -->
+            <div class="item item-hover">
+                <img src="./assest/img/menu-4.png" alt="">
+                <h4 class="item-title">Tasty and healthy</h4>
+                <div class="item-price">$15.99 <span>20.99</span></div>
+                <a  class="item-btn btn">Add to cart</a>
+            </div>
+            <!--        ITEM 5       -->
+            <div class="item item-hover">
+                <img src="./assest/img/menu-5.png" alt="">
+                <h4 class="item-title">Tasty and healthy</h4>
+                <div class="item-price">$15.99 <span>20.99</span></div>
+                <a  class="item-btn btn">Add to cart</a>
+            </div>
+            <!--        ITEM 6       -->
+            <div class="item item-hover">
+                <img src="./assest/img/menu-6.png" alt="">
+                <h4 class="item-title">Tasty and healthy</h4>
+                <div class="item-price">$15.99 <span>20.99</span></div>
+                <a  class="item-btn btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        ========================================
+                        PRODUCTS
+        ========================================
+    -->
+    <div id="products">
+        <p class="name-section">OUR <span class="name-section--primary">PRODUCTS</span></p>
+        <div class="grid-container">
+            <!--        ITEM 1       -->
+            <div class="item">
+                <div class="item-icon">
+                    <a  class="item-icon-contain fas fa-shopping-cart"></a>
+                    <a  class="item-icon-contain fas fa-heart"></a>
+                    <a  class="item-icon-contain fas fa-eye"></a>
+                </div>
+                <img class="img--big" src="./assest/img/product-1.png" alt="">
+                <h4 class="item-title item-title--big">fresh coffee</h4>
+                <div class="item-rate">
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star-half-alt"></i>
+                </div>
+                <div class="item-price item-price--no-margin">$15.99 <span>20.99</span></div> 
+            </div>
+            <!--        ITEM 2       -->
+            <div class="item">
+                <div class="item-icon">
+                    <a  class="item-icon-contain fas fa-shopping-cart"></a>
+                    <a  class="item-icon-contain fas fa-heart"></a>
+                    <a  class="item-icon-contain fas fa-eye"></a>
+                </div>
+                <img class="img--big" src="./assest/img/product-2.png" alt="">
+                <h4 class="item-title item-title--big">fresh coffee</h4>
+                <div class="item-rate">
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star-half-alt"></i>
+                </div>
+                <div class="item-price item-price--no-margin">$15.99 <span>20.99</span></div> 
+            </div>
+            <!--        ITEM 3       -->
+            <div class="item">
+                <div class="item-icon">
+                    <a  class="item-icon-contain fas fa-shopping-cart"></a>
+                    <a  class="item-icon-contain fas fa-heart"></a>
+                    <a  class="item-icon-contain fas fa-eye"></a>
+                </div>
+                <img class="img--big" src="./assest/img/product-3.png" alt="">
+                <h4 class="item-title item-title--big">fresh coffee</h4>
+                <div class="item-rate">
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star-half-alt"></i>
+                </div>
+                <div class="item-price item-price--no-margin">$15.99 <span>20.99</span></div> 
+            </div>
+        </div>
+            
+    </div>
+
+    <!--
+        ========================================
+                        REVIEW
+        ========================================
+    -->
+    <div id="review">
+        <p class="name-section">CUSTOMER'S <span class="name-section--primary">REVIEW</span></p>
+        <div class="grid-container">
+            <!--        ITEM 1       -->
+            <div class="item">
+                <img src="./assest/img/quote-img.png" alt="" class="item-img-quote">
+                <p class="item-text-quote">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+                <img class="item-avatar" src="./assest/img/pic-1.png" alt="">
+                <h4 class="item-title">john</h4>
+                <div class="item-rate">
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <!--        ITEM 2       -->
+            <div class="item">
+                <img src="./assest/img/quote-img.png" alt="" class="item-img-quote">
+                <p class="item-text-quote">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+                <img class="item-avatar" src="./assest/img/pic-2.png" alt="">
+                <h4 class="item-title">Christine</h4>
+                <div class="item-rate">
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <!--        ITEM 3       -->
+            <div class="item">
+                <img src="./assest/img/quote-img.png" alt="" class="item-img-quote">
+                <p class="item-text-quote">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+                <img class="item-avatar" src="./assest/img/pic-3.png" alt="">
+                <h4 class="item-title">Adam</h4>
+                <div class="item-rate">
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star"></i>
+                    <i class="icon-rate fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        ========================================
+                        CONTACT
+        ========================================
+    -->
+    <div id="contact">
+        <p class="name-section">CONTACT <span class="name-section--primary">US</span></p>
+        <div class="contact-content row">
+            <iframe class="contact-content-1 map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59615.81155077828!2d105.71730830863862!3d20.952988132891782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134532bef4bcdb7%3A0xbcc7a679fcba07f6!2sDistrict%20de%20Ha%20Dong%2C%20Hano%C3%AF%2C%20Vietnam!5e0!3m2!1sfr!2s!4v1641068692585!5m2!1sfr!2s"  style="border:0;" allowfullscreen loading="lazy"></iframe>
+            
+            <div class="contact-content-2">
+                <form action="">
+                    <div class="contact-input-form">
+                        <span><i class="fas fa-user"></i></span>
+                        <input required placeholder="Your name" type="text" class="input-form">
+                    </div>
+                    <div class="contact-input-form">
+                        <span><i class="fas fa-envelope"></i></span>
+                        
+                        <input required placeholder="Your mail" type="email" class="input-form">
+                     </div>
+                    <div class="contact-input-form">
+                        <span><i class="fas fa-phone"></i></span>
+                        
+                        <input required placeholder="Your phone number" type="text" class="input-form">
+                    </div>
+                    <input type="submit" class="contact-btn btn" value="Contact now"></input>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--
+        ========================================
+                        BLOG
+        ========================================
+    -->
+    <div id="blog">
+        <p class="name-section">OUR <span class="name-section--primary">BLOG</span></p>
+        <div class="grid-container">
+            <!--        ITEM 1       -->
+            <div class="item item--no-padding">
+                <div class="blog-img-contain">
+                    <img class="blog-img" src="./assest/img/blog-1.jpeg" alt="">
+                </div>
+                <div class="blog-text-contain">
+                    <h4 class="item-title item--no-margin ">Tasty and refeshing coffee</h4>
+                    <h3 class="item-credit item--no-margin">By Admin / 21st May, 2021</h3>
+                    <p class="item-des item--no-margin">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta.</p>
+                    <a  class="item-btn btn">Read More</a>
+                </div>  
+            </div>
+            <!--        ITEM 2       -->
+            <div class="item item--no-padding">
+                <div class="blog-img-contain">
+                    <img class="blog-img" src="./assest/img/blog-2.jpeg" alt="">
+                </div>
+                <div class="blog-text-contain">
+                    <h4 class="item-title item--no-margin ">Tasty and refeshing coffee</h4>
+                    <h3 class="item-credit item--no-margin">By Admin / 21st May, 2021</h3>
+                    <p class="item-des item--no-margin">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta.</p>
+                    <a  class="item-btn btn">Read More</a>
+                </div>  
+            </div>
+            <!--        ITEM 3       -->
+            <div class="item item--no-padding">
+                <div class="blog-img-contain">
+                    <img class="blog-img" src="./assest/img/blog-3.jpeg" alt="">
+                </div>
+                <div class="blog-text-contain">
+                    <h4 class="item-title item--no-margin ">Tasty and refeshing coffee</h4>
+                    <h3 class="item-credit item--no-margin">By Admin / 21st May, 2021</h3>
+                    <p class="item-des item--no-margin">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta.</p>
+                    <a  class="item-btn btn">Read More</a>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--
+        ========================================
+                        FOOTER
+        ========================================
+    -->
+<footer class="row">
+    <div class="footer-icon row">
+        <a ><i class="fab fa-facebook-f"></i></a>
+        <a ><i class="fab fa-twitter"></i></a>
+        <a ><i class="fab fa-instagram"></i></a>
+        <a ><i class="fab fa-linkedin-in"></i></a>
+        <a ><i class="fab fa-pinterest-p"></i></a>
+    </div>
+    <div class="footer-credit">
+        Created by <span class="name-section--primary">Bui Ngoc</span> with heart <span class="name-section--primary"><i class="fas fa-heart"></i></span>
+    </div>
+</footer>
+    <script src="./assest/main.js"></script>
+</body>
+</html>

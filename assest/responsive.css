@@ -1,0 +1,121 @@
+@media (max-width:1000px) {
+    .btn{
+        padding: 1.2rem 2.4rem !important
+    }
+    #about .about-content{
+        flex-direction: column;
+    }
+    #about .about-content img{
+        width:100%
+    }
+
+    #contact .contact-content{
+        flex-direction: column;
+    }
+    #contact iframe,
+    #contact .contact-content-2,
+    #contact .contact-btn{
+        width: 100%;
+    }
+}
+
+@media (max-width:900px) {
+    #header .navbar{
+        font-size: 1.6rem;
+    }
+    #header .logo{
+        height:4rem
+    }
+    #header .icon i{
+        font-size:1.6rem
+    }
+}
+
+@media (max-width:800px){
+    #menubar-btn{
+        display: inline-block !important;
+    }
+    #header .navbar{
+        position: absolute;
+        top:calc(100% + 2px); 
+        right:-100%;
+        background: var(--primary-color);
+        color: #000;
+        /* background: #000; */
+        width: 30rem;
+        height: calc(100vh - 8.5rem);
+        border: .1rem solid grey
+    }
+    #header .navbar ul,a{
+        display: block !important; 
+        padding:0
+    }
+    #header ul li a{
+        padding:1.5rem 0
+    }
+    #header .navbar .navbar-list{
+        padding:2rem !important
+    }
+    #header .navbar .navbar-list:hover{
+        color:#000 !important;
+        padding:2rem !important;
+        border:none !important;
+    }
+    .home-content{
+        text-align: center;
+    }
+    .home-content__title{
+        font-size: 3.4rem !important;
+    }
+    .home-content__des{
+        font-size:1.6rem !important
+    }
+    .name-section{
+        font-size: 3rem !important;
+    }
+    .about-content-2-title{
+        font-size:1.6rem;
+    }
+    .about-content-2-des{
+        font-size: 1.2rem;
+    }
+    .contact-input-form{
+        padding:1.6rem !important
+    }
+    .row .footer-icon a{
+        display: flex !important;
+        width:4rem;
+        height:4rem;
+        font-size:1.6rem
+    }
+    .item .blog-text-contain .item-title{
+        font-size: 2.2rem !important;
+    }
+    .item .blog-text-contain .item-credit{
+        font-size: 2rem !important;
+    } 
+    .item .blog-text-contain .item-des{
+        font-size: 1.4rem !important;  
+    }
+    .item-icon-contain{
+        display: inline-block !important;
+    }
+}
+@media (max-width: 700px) {
+    #home .home-content__title{
+        font-size: 3rem !important;
+    }
+    #home .home-content__des{
+        font-size:1.4rem !important
+    }
+}
+@media (max-width: 560px) {
+    #header .search-form{
+        right:0 !important;
+    }
+}
+@media (max-width: 361px) {
+    #header .search-form .search-form__input{
+        width:28rem !important
+    }
+}
