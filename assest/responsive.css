@@ -119,7 +119,7 @@
         width:28rem !important
     }
     .grid-container{
-        grid-template-columns: repeat(auto-fit,minmax(28rem,1fr)) !important;
+        grid-template-columns: repeat(auto-fit,minmax(26rem,1fr)) !important;
     }
     .footer-credit{
         font-size: 1.4rem !important;
