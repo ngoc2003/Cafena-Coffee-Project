@@ -414,7 +414,9 @@ a{
 #contact .contact-content .contact-content-2{
     flex: 1;
     padding:2rem 0
-    
+}
+#contact form{
+    margin: 0 2rem
 }
 #contact .contact-input-form{
     display: flex;
@@ -422,7 +424,6 @@ a{
     border:.1rem solid var(--border-color);
     align-items: center;
     margin:2rem 0;
-    margin-right:2rem;
 }
 #contact .contact-input-form i{
     margin:0 2rem;
